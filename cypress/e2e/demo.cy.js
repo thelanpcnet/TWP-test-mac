@@ -1,5 +1,6 @@
-describe('Element interaction', () => {
-  it('Should be able to complete the form', () => {
-    cy.visit("https://staging.theworkproject.com")
-  })
-});
+describe('Testing on homepage', () => {
+	it('Book Now form', () => {
+		cy.viewport(1920, 1080)
+		cy.visit('https://staging.theworkproject.com')
+	})
+})
